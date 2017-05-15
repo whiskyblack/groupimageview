@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c7c7c7"
+    android:gravity="center"
+    tools:context=".GroupCircleImage">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <blue.sky.ui.GroupImageView
+            android:id="@+id/img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Demo for 1 avatar"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <blue.sky.ui.GroupImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/img1"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Demo for 2 avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <blue.sky.ui.GroupImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/img2"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Demo for 3 avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <blue.sky.ui.GroupImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/img3"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Demo for 4 avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <blue.sky.ui.GroupImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/img4"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Demo 100 avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:onClick="circle"
+        android:text="Round Group Image View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
